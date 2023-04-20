@@ -128,31 +128,6 @@ nav ul li a {
     color: rgb(255, 255, 255);
 }
 
-li.dropdown{
-    display: inline-block;
-}
-
-.dropdown-content{
-    position: absolute;
-    width: 150px;
-    display: none;
-}
-
-.dropdown:hover .dropdown-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--bgWhite);
-    box-shadow: 0 0 1px var(--dark-Color);
-    z-index: 2;
-} 
-
-.dropdown-content a {
-    color: var(--bgBlack);
-    display: block;
-    text-align: left;   
-}
-
 nav ul li a:hover {
     color: var(--golden-Color);
 }
