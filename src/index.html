@@ -16,20 +16,30 @@
 <body>
     <header>
         <div class="wrapper header__content">
-            <img src="image/PagePrincipal/logo.svg" alt="">
-            <nav>
+            <img class="logo" src="image/PagePrincipal/logo.svg" alt="">
+            <nav class="nav-bar" >
                 <ul>
                     <li>
-                        <a href="pages/VestuárioFem/index.html" >Moda Feminina</a>
+                        <a class="nav-item" href="pages/VestuárioFem/index.html" >Moda Feminina</a>
                     </li>
                     <li>
-                        <a href="pages/VestuarioMasc/index.html" >Moda Masculina</a>
+                        <a class="nav-item" href="pages/VestuarioMasc/index.html" >Moda Masculina</a>
                     </li>
                     <li>
-                        <a href="pages/VestuárioInfa/index.html" >Moda Infantil</a>
+                        <a class="nav-item" href="pages/VestuárioInfa/index.html" >Moda Infantil</a>
                     </li>
                 </ul>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="image/PagePrincipal/menu_white_36dp.svg" alt=""></button>
+                </div>
             </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="pages/VestuárioFem/index.html" class="nav-link">Moda Feminina</a></li>
+                    <li class="nav-item"><a href="pages/VestuárioMasc/index.html" class="nav-link">Moda Masculina</a></li>
+                    <li class="nav-item"><a href="pages/VestuárioInfa/index.html" class="nav-link">Moda Infantil</a></li>
+                </ul>
+            </div>
         </div>
     </header>
    
@@ -193,7 +203,7 @@
         </div>
 
         <div class="localization" >
-        <h1>Onde estamos localizados</h1>
+           <h1>Onde estamos localizados</h1>
         </div>    
         <div class="fashion">
             <div class="fashion__left">
@@ -208,7 +218,7 @@
                 <p>
                     Estamos localizados no Mercado Municipal de Tianguá, Segundo Piso BOX L13 L14. Na Rua Manoel Simão Batista, 300 - Gov.
                     Ferraz, Tianguá - CE, 62322-245
-                </div>
+            </div> 
         </div>
 
         <div class="wrapper order">
@@ -245,7 +255,7 @@
         </p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
