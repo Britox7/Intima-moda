@@ -102,6 +102,7 @@ header {
     margin: 0 auto;
     position: relative;
     top: 7px;
+    left: 20px;
 }
 
 nav {
@@ -923,6 +924,10 @@ footer img {
 
     .small__order {
         width: 100%;
+    }
+
+    .images img {
+        width: 150px;
     }
 }
 
