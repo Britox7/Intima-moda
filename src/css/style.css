@@ -706,6 +706,10 @@ footer img {
         width: 100vw;
     }
 
+    header {
+        position: fixed;
+    }
+
     .header__content {
         display: flex;
         flex-direction: column;
