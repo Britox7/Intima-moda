@@ -702,10 +702,10 @@ footer img {
 }
 
 @media screen and (max-width: 767px) {    
-    body {
-        overflow-x: hidden;
-    }
-    
+   body {
+    width: 90vw;
+   }
+   
     .header__content {
         display: flex;
         flex-direction: column;
