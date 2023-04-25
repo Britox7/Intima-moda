@@ -702,10 +702,6 @@ footer img {
 }
 
 @media screen and (max-width: 767px) {    
-    body {
-        width: 100vw;
-    }
-
     header {
         position: fixed;
     }
@@ -751,7 +747,7 @@ footer img {
         display: block;
         padding-top: 1.2rem;
         padding-bottom: 15px;
-        width: 100vw;
+        width: 90vw;
     }
 
     .mobile-menu-icon img {
