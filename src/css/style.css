@@ -703,7 +703,7 @@ footer img {
 
 @media screen and (max-width: 767px) {    
    body {
-    width: 85vw;
+    width: 80vw;
    }
    
     .header__content {
@@ -717,8 +717,13 @@ footer img {
        margin-right: 230px;
     } 
 
+    header {
+        width: 90vw;
+    }
+
     .nav-bar {
         padding: 1.5rem 4rem;
+        width: 91vw;
     }
 
     .nav-item {
@@ -760,10 +765,16 @@ footer img {
         display: block;
     }
 
+    .home {
+    width: 90vw;
+
+    }
+
     .home__content {
         flex-direction: column;
         row-gap: 10px;
         padding: 20px 0px;
+        width: 80vw;
     }
 
     .home__left{
