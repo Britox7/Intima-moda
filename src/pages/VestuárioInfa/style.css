@@ -100,7 +100,14 @@ nav ul li a:hover {
     height: 600px;
     display: inline;
 }
-
+div.images > div{
+    background-color:var(--bgGrey);
+    border-radius: 5px;
+    transition: 500ms all;
+}
+div.images > div:hover{
+    transform: scale(1.1);
+}
 .order__left h3, h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -139,13 +146,9 @@ nav ul li a:hover {
     font-size: 15px;
     font-weight: 700;
     cursor: pointer;
-    margin-top: 30px;
+    background-color: var(--golden-Color);
 }
 
-.images div button:hover {
-    background-color: var(--golden-Color);
-    color: var(--white-Color);
-}
 
 .images p {
     margin-top: 20px;
@@ -157,10 +160,6 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.images img:hover {
-    transform: scale(1.1);
-    transition: all ease-in 0.4s;
-}
 
 
 footer {
@@ -180,11 +179,7 @@ footer img {
     height: 50px;
 }
 
-@media screen and (max-width:768px) {
-    .header__content img {
-        display: none;
-    }
-    
+@media screen and (max-width: 1200px) {
     nav {
         width: auto;
         display: flex;
@@ -211,15 +206,9 @@ footer img {
         font-weight: 600;
     }
     
-    .images {
-        display: flex;
-    }
+}   
 
-    .images img {
-        width: 150px;
-        height: 150px;
-    }
-
+@media screen and (max-width:767px) {
 }
 
 @media screen and (max-width:320px) {

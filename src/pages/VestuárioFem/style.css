@@ -100,7 +100,14 @@ nav ul li a:hover {
     height: 600px;
     display: inline;
 }
-
+div.images > div{
+    background-color:var(--bgGrey);
+    border-radius: 5px;
+    transition: 500ms all;
+}
+div.images > div:hover{
+    transform: scale(1.1);
+}
 .order__left h3, h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -139,13 +146,9 @@ nav ul li a:hover {
     font-size: 15px;
     font-weight: 700;
     cursor: pointer;
-    margin-top: 30px;
+    background-color: var(--golden-Color);
 }
 
-.images div button:hover {
-    background-color: var(--golden-Color);
-    color: var(--white-Color);
-}
 
 .images p {
     margin-top: 20px;
@@ -157,10 +160,6 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.images img:hover {
-    transform: scale(1.1);
-    transition: all ease-in 0.4s;
-}
 
 
 footer {
@@ -210,69 +209,6 @@ footer img {
 }   
 
 @media screen and (max-width:767px) {
-    .header__content {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .header__content .logo {
-       position: absolute;
-       top: 1px;
-       margin-right: 230px;
-    } 
-
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-
-    .nav-item {
-        display: none;
-    }
-    .login-button {
-        display: none;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-        background-color: var(--pink-Color);
-        border-radius: 5px;
-        padding: 0px 135px;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-        padding-bottom: 15px;
-        width: 200px;
-    }
-
-    .mobile-menu-icon img {
-        height: 80px;
-        margin-bottom: 10px;
-        margin-left: 15px;
-    }
-
-    .open {
-        display: block;
-    }
-    .images {
-        display: flex;
-    }
-
-    .images img {
-        width: 160px;
-        height: 160px;
-    }
-
 }
 
 @media screen and (max-width:320px) {
