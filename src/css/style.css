@@ -266,7 +266,7 @@ nav ul li a:hover {
 }
 
 .categories__card img {
-    height: 300px;
+    height: 250px;
     margin-bottom: 80px;
 }
 
@@ -358,7 +358,7 @@ nav ul li a:hover {
 }
 @media (max-width:1200px) {
     .featured__image img {
-        width: 60%;
+        width: 30%;
     }
 }
 
@@ -418,7 +418,7 @@ nav ul li a:hover {
 }
 
 .fashion__left {
-    width: 65%;
+    width: 80%;
     height: 600px;
     position: relative;
     right: -63px;
@@ -861,13 +861,11 @@ footer img {
     }
 
     .fashion__left {
-        width: 65%;
-        display: flex;
-        justify-content: center;
+        width: 60%;
     }
 
     .fashion__left iframe {
-        width: 70%;
+        width: 100%;
     }
 
     .fashion__right {
@@ -1031,7 +1029,7 @@ footer img {
     }
 
     .categories__cardRight img {
-        width: 200px;
+        width: 185px;
     }
 
     .featured {
@@ -1076,7 +1074,7 @@ footer img {
     }
 
     .fashion__left {
-        width: 100%;
+        width: 60%;
         background-size: contain;
     }
 
