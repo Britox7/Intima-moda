@@ -358,7 +358,7 @@ nav ul li a:hover {
 }
 @media (max-width:1200px) {
     .featured__image img {
-        width: 40%;
+        width: 60%;
     }
 }
 
@@ -418,7 +418,7 @@ nav ul li a:hover {
 }
 
 .fashion__left {
-    width: 100%;
+    width: 65%;
     height: 600px;
     position: relative;
     right: -63px;
@@ -674,6 +674,7 @@ footer img {
 
     .featured p {
         width: 100%;
+        margin-bottom: 15px;
     }
 
     .featured__btn {
@@ -860,11 +861,13 @@ footer img {
     }
 
     .fashion__left {
-        width: 100%;
+        width: 65%;
+        display: flex;
+        justify-content: center;
     }
 
     .fashion__left iframe {
-        width: 100%;
+        width: 70%;
     }
 
     .fashion__right {
