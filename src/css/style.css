@@ -46,18 +46,12 @@ a {
 
 header {
     width: 100vw;
-    height: 90px;
+    height: 75px;
     background-color: var(--pink-Color);
     display: flex;
     position: fixed;
     z-index: 1;
     box-shadow: 0px 3px 10px #464646;
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 6rem;
 }
 
 .logo {
@@ -72,28 +66,6 @@ header {
     top: 7px;
 }
 
-.nav-list {
-    display: flex;
-    align-items: center;
-
-}
-.nav-list ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-.nav-item {
-     margin: 0 15px;
-}
-
-.nav-link {
-    text-decoration: none;
-    font-size: 1.15rem;
-    color: var(--bgWhite);
-    font-weight: 400;
-}
-
 .header__content {
     display: flex;
     align-items: center;
@@ -101,10 +73,10 @@ header {
 }
 
 .header__content img {
-    height: 100px;
+    height: 70px;
     margin: 0 auto;
     position: relative;
-    top: 7px;
+    bottom: -5px;
     left: 20px;
 }
 
@@ -134,6 +106,35 @@ nav ul li a {
 
 nav ul li a:hover {
     color: var(--golden-Color);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    height: 75px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+
+}
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+     margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: var(--bgWhite);
+    font-weight: 400;
 }
 
 .home{
@@ -711,7 +712,7 @@ footer img {
     }
 }
 
-@media screen and (max-width: 767px) {    
+@media screen and (max-width: 1024px) {    
 
     .header__content {
         display: flex;
@@ -762,6 +763,230 @@ footer img {
 
     .mobile-menu-icon img {
         height: 80px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .home__content {
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 20px 0px;
+    }
+
+    .home__left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        row-gap: 30px;
+    }
+
+    .home__left p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .home__left h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .home__right p {    
+        height: 300px;
+        width: 300px;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .home__right img {
+        height: 400px;
+        position: relative;
+        top: 45px;
+    }
+
+    .categories__cards {
+        flex-direction: column;
+        margin: 0px;
+        margin-top: 50px;
+    }   
+
+    .categories__card {
+        width: 100%;
+        margin: 50px 0px;
+    }
+
+    .featured {
+        margin: 0px auto;
+    }
+    .featured p {
+        width: 100%;
+    }
+
+    .featured__btn {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .featured__cards {
+        margin: 0px 0px;
+    }
+
+    .featured__card {
+        width: 100%;
+        margin: 50px 0px;
+    }
+
+    .featured__card .featured__image {
+        width: 100%;
+        height: 500px;
+        background-color: var(--bgGrey);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .featured__image img {
+        width: 26vw;
+        object-fit: contain;
+    }
+
+    .fashion {
+        flex-direction: column;
+    }
+
+    .fashion__left {
+        width: 60%;
+    }
+
+    .fashion__left iframe {
+        width: 100%;
+    }
+
+    .fashion__right {
+        width: 100%;
+    }
+
+    .fashion__right p {
+        font-size: 18px;
+        line-height: auto;
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    
+    .order {
+        flex-direction: column;
+    }
+
+    .order__left {
+        width: 100%;
+        overflow-y: auto;
+    }
+
+    .order__right {
+        width: 100%;
+    }
+
+    .order__right p {
+        padding: 50px 100px;
+    }
+
+    .down__order__right {
+        width: 100%;
+    }
+
+    .down__p {
+        padding: 0px !important;
+    }
+
+    .recent {
+        padding-top: 100px;
+    }
+
+    .recent__cards {
+        flex-direction: column;
+    }
+
+    .recent__card {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .down__order__right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .small__order {
+        width: 100%;
+    }
+
+    .images img {
+        width: 25vw;
+        height: 20vw;
+    }
+}
+
+@media screen and (max-width: 768px) {    
+
+    .header__content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header__content .logo {
+       position: absolute;
+       top: 1px;
+       margin-right: 230px;
+    } 
+
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+     padding:120px ;
+        
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: var(--pink-Color);
+        border-radius: 5px;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding: 10px;
+        width: 100vw;
+        border-bottom: 1px solid var(--bgWhite);
+    }
+
+    .mobile-menu-icon img {
+        height: 55px;
         margin-bottom: 10px;
         margin-left: 15px;
     }
@@ -957,9 +1182,7 @@ footer img {
     .nav-item {
         display: none;
     }
-    .login-button {
-        display: none;
-    }
+    
     .mobile-menu-icon {
         display: block;
     }
@@ -979,6 +1202,7 @@ footer img {
         text-align: center;
         padding-bottom: 1rem;
     }
+
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
@@ -1136,5 +1360,9 @@ footer img {
         width: 100%;
     }
 
+    .images img {
+        width: 50vw;
+        height: 40vw;
+    }
     
 }
