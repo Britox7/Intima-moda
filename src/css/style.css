@@ -357,11 +357,6 @@ nav ul li a:hover {
 .featured__image img {
     width: 80%;
 }
-@media (max-width:1200px) {
-    .featured__image img {
-        width: 30%;
-    }
-}
 
 .featured__image {
     display: flex;
@@ -734,19 +729,19 @@ footer img {
      padding:120px ;
         
     }
-    .login-button {
-        display: none;
-    }
-    .mobile-menu-icon {
+ 
+     .mobile-menu-icon {
         display: block;
-    }
+    } 
+
     .mobile-menu-icon button {
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
+
     .mobile-menu ul {
-        height: 100vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -758,6 +753,11 @@ footer img {
         display: block;
         padding: 40px;
         width: 100vw;
+        border-bottom: none;
+    }
+
+    .mobile-menu .nav-link {
+        font-size: 2rem;
         border-bottom: 1px solid var(--bgWhite);
     }
 
@@ -935,6 +935,8 @@ footer img {
     }
 }
 
+
+
 @media screen and (max-width: 768px) {    
 
     .header__content {
@@ -953,9 +955,8 @@ footer img {
     }
 
     .nav-item {
-        display: none;
-     padding:120px ;
-        
+     display: none;
+     padding: 120px;   
     }
     .login-button {
         display: none;
@@ -969,7 +970,7 @@ footer img {
         cursor: pointer;
     }
     .mobile-menu ul {
-        height: 25vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -980,8 +981,13 @@ footer img {
 
     .mobile-menu .nav-item {
         display: block;
-        padding: 10px;
+        padding: 50px;
         width: 100vw;
+        border-bottom: none;
+    }
+
+    .mobile-menu .nav-link {
+        font-size: 1.25rem;
         border-bottom: 1px solid var(--bgWhite);
     }
 
@@ -1201,12 +1207,20 @@ footer img {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        height: 100vw;
     }
 
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
+        padding: 50px;
+        border-bottom: none;
     }
+
+    .mobile-menu .nav-link {
+        border-bottom: 1px solid var(--bgWhite);
+    }
+
     .mobile-menu .login-button {
         display: block;
         padding: 1rem 2rem;

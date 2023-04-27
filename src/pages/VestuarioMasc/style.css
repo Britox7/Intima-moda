@@ -315,7 +315,7 @@ footer img {
         cursor: pointer;
     }
     .mobile-menu ul {
-        height: 25vh;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -325,8 +325,12 @@ footer img {
     }
     .mobile-menu .nav-item {
         display: block;
-        padding: 15px;
+        padding: 40px;
         width: 100vw;
+        border-bottom: none;
+    }
+
+    .mobile-menu .nav-link {
         border-bottom: 1px solid var(--bgWhite);
     }
 
@@ -339,6 +343,16 @@ footer img {
     .open {
         display: block;
     }
+
+    .images {
+        flex-wrap: wrap;
+    }
+
+    .images img {
+        width: 140px;
+        height: 140px;
+    }
+
 }
 
 @media screen and (max-width:320px) {
