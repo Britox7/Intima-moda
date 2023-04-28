@@ -341,7 +341,7 @@ footer img {
     
         .mobile-menu .nav-link {
             border-bottom: 1px solid var(--bgWhite);
-            font-size: 40px;
+            font-size: 1.2rem;
         }
     
         .mobile-menu-icon img {
@@ -416,7 +416,7 @@ footer img {
 
     .mobile-menu .nav-link {
         border-bottom: 1px solid var(--bgWhite);
-        font-size: 30px;
+        font-size: 1.25rem;
     }
 
     .mobile-menu-icon img {
@@ -489,6 +489,10 @@ footer img {
         width: 100vw;
         height: 150vh;
         border-bottom: none;
+    }
+
+    .mobile-menu .nav-item {
+        font-size: 1rem;
     }
 
     .mobile-menu-icon img {
