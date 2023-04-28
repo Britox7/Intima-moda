@@ -258,6 +258,7 @@ footer img {
         height: 100vh;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         text-align: center;
         padding-bottom: 1rem;
         background-color: var(--pink-Color);
@@ -267,6 +268,11 @@ footer img {
         display: block;
         padding: 40px;
         width: 100vw;
+        height: 150vh;
+        border-bottom: none;
+    }
+
+    .mobile-menu .nav-link {
         border-bottom: 1px solid var(--bgWhite);
     }
 
@@ -280,16 +286,82 @@ footer img {
         display: block;
     }
     
-    .images {
-        flex-wrap: wrap;
-    }
-
-    .images img {
-        width: 140px;
-        height: 140px;
-    }
-
 }   
+
+@media screen and (max-width:1024px) {
+        .header__content {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header__content .logo {
+           position: absolute;
+           top: 6px;
+           margin-right: 230px;
+        } 
+    
+        .nav-bar {
+            padding: 1.5rem 4rem;
+        }
+    
+        .nav-item {
+            display: none;
+         padding:120px ;
+            
+        }
+        .login-button {
+            display: none;
+        }
+        .mobile-menu-icon {
+            display: block;
+        }
+        .mobile-menu-icon button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .mobile-menu ul {
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 1rem;
+            background-color: var(--pink-Color);
+            border-radius: 5px;
+        }
+        .mobile-menu .nav-item {
+            display: block;
+            padding: 40px;
+            width: 100vw;
+            height: 150vh;
+            border-bottom: none;
+        }
+    
+        .mobile-menu .nav-link {
+            border-bottom: 1px solid var(--bgWhite);
+            font-size: 40px;
+        }
+    
+        .mobile-menu-icon img {
+            height: 55px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+        }
+    
+        .open {
+            display: block;
+        }
+    
+        .images {
+            flex-wrap: wrap;
+        }
+    
+        .images img {
+            width: 240px;
+            height: 240px;
+        }
+}
 
 @media screen and (max-width:768px) {
     .header__content {
@@ -299,70 +371,7 @@ footer img {
     
     .header__content .logo {
        position: absolute;
-       top: 6px;
-       margin-right: 230px;
-    } 
-
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-
-    .nav-item {
-        display: none;
-     padding:120px ;
-        
-    }
-    .login-button {
-        display: none;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-        background-color: var(--pink-Color);
-        border-radius: 5px;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding: 40px;
-        width: 100vw;
-        border-bottom: none;
-    }
-
-    .mobile-menu .nav-link {
-        border-bottom: 1px solid var(--bgWhite);
-    }
-
-    .mobile-menu-icon img {
-        height: 55px;
-        margin-bottom: 10px;
-        margin-left: 15px;
-    }
-
-    .open {
-        display: block;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .header__content {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .header__content .logo {
-       position: absolute;
-       top: 1px;
+       top: 7px;
        margin-right: 230px;
     } 
 
@@ -390,6 +399,84 @@ footer img {
         height: 100vh;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: var(--pink-Color);
+        border-radius: 5px;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding: 30px;
+        width: 100vw;
+        height: 100vh;
+        border-bottom: none;
+    }
+
+    .mobile-menu .nav-link {
+        border-bottom: 1px solid var(--bgWhite);
+        font-size: 30px;
+    }
+
+    .mobile-menu-icon img {
+        height: 55px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .images {
+        flex-wrap: wrap;
+    }
+
+    .images img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .header__content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header__content .logo {
+       position: absolute;
+       top: 7px;
+       margin-right: 230px;
+    } 
+
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+     padding:120px ;
+        
+    }   
+
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         text-align: center;
         padding-bottom: 1rem;
         background-color: var(--pink-Color);
@@ -399,11 +486,12 @@ footer img {
         display: block;
         padding: 40px;
         width: 100vw;
-        border-bottom: 1px solid var(--bgWhite);
+        height: 150vh;
+        border-bottom: none;
     }
 
     .mobile-menu-icon img {
-        height: 80px;
+        height: 60px;
         margin-bottom: 10px;
         margin-left: 15px;
     }
@@ -421,11 +509,7 @@ footer img {
         height: 140px;
     }
 
-    .order__left h3 {
-        font-size: 15px;
-    }
-
-    .order__left h4 {
-        font-size: 15px;
+    .order__left h3, h4 {
+        font-size: 12px;
     }
 }
