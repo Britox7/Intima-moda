@@ -258,7 +258,7 @@ footer img {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         text-align: center;
         padding-bottom: 1rem;
         background-color: var(--pink-Color);
@@ -268,7 +268,7 @@ footer img {
         display: block;
         padding: 40px;
         width: 100vw;
-        height: 150vh;
+        height: 30vh;
         border-bottom: none;
     }
 
@@ -323,7 +323,7 @@ footer img {
         .mobile-menu ul {
             height: 100vh;
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-start;
             flex-direction: column;
             text-align: center;
             padding-bottom: 1rem;
@@ -334,7 +334,7 @@ footer img {
             display: block;
             padding: 40px;
             width: 100vw;
-            height: 150vh;
+            height: 30vh;
             border-bottom: none;
         }
     
@@ -399,7 +399,7 @@ footer img {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         text-align: center;
         padding-bottom: 1rem;
         background-color: var(--pink-Color);
@@ -409,7 +409,7 @@ footer img {
         display: block;
         padding: 30px;
         width: 100vw;
-        height: 100vh;
+        height: 30vh;
         border-bottom: none;
     }
 
@@ -476,7 +476,7 @@ footer img {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         text-align: center;
         padding-bottom: 1rem;
         background-color: var(--pink-Color);
@@ -486,7 +486,7 @@ footer img {
         display: block;
         padding: 40px;
         width: 100vw;
-        height: 150vh;
+        height: 25vh;
         border-bottom: none;
     }
 
