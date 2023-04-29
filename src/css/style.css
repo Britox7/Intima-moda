@@ -748,16 +748,26 @@ footer img {
         width: calc(100% / 2 - 40px);
     }
 
+    .featured__image img {
+       width: 30%;
+    }
+
     .order {
         flex-direction: column;
     }
 
     .order__left {
         width: 100%;
+        overflow-y: auto;
     }
 
     .order__right {
         width: 100%;
+    }
+
+    .images img {
+        width: 30%;
+        height: 15%;
     }
 
 }
@@ -974,8 +984,8 @@ footer img {
     }
 
     .images img {
-        width: 25vw;
-        height: 20vw;
+        width: 30%;
+        height: 15%;
     }
 }
 
@@ -1193,8 +1203,8 @@ footer img {
     }
 
     .images img {
-        width: 145px;
-        height: 150px;
+        width: 40%;
+        height: 20%;
     }
 }
 
@@ -1400,8 +1410,8 @@ footer img {
     }
 
     .images img {
-        width: 50vw;
-        height: 40vw;
+        width: 60%;
+        height: 35%;
     }
     
 }
